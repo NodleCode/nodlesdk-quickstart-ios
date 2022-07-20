@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9215F9D2E6570BEEE1965B45 /* Pods_NodleSDKQuickStartiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6ABCD134B98896ED6A39DD /* Pods_NodleSDKQuickStartiOS.framework */; };
+		D80B0BD028880D8000BCDCD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80B0BCF28880D8000BCDCD1 /* AppDelegate.swift */; };
+		D80B0BD228880D8000BCDCD1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80B0BD128880D8000BCDCD1 /* SceneDelegate.swift */; };
+		D80B0BD428880D8000BCDCD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80B0BD328880D8000BCDCD1 /* ViewController.swift */; };
+		D80B0BD728880D8000BCDCD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D80B0BD528880D8000BCDCD1 /* Main.storyboard */; };
+		D80B0BD928880D8400BCDCD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D80B0BD828880D8400BCDCD1 /* Assets.xcassets */; };
+		D80B0BDC28880D8400BCDCD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D80B0BDA28880D8400BCDCD1 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		35FFDAC0E3C1775F58424599 /* Pods-NodleSDKQuickStartiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NodleSDKQuickStartiOS.debug.xcconfig"; path = "Target Support Files/Pods-NodleSDKQuickStartiOS/Pods-NodleSDKQuickStartiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		A7DBF78B228B8F2476F64AE0 /* Pods-NodleSDKQuickStartiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NodleSDKQuickStartiOS.release.xcconfig"; path = "Target Support Files/Pods-NodleSDKQuickStartiOS/Pods-NodleSDKQuickStartiOS.release.xcconfig"; sourceTree = "<group>"; };
+		CE6ABCD134B98896ED6A39DD /* Pods_NodleSDKQuickStartiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NodleSDKQuickStartiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D80B0BCC28880D8000BCDCD1 /* NodleSDKQuickStartiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NodleSDKQuickStartiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D80B0BCF28880D8000BCDCD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D80B0BD128880D8000BCDCD1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D80B0BD328880D8000BCDCD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D80B0BD628880D8000BCDCD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D80B0BD828880D8400BCDCD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D80B0BDB28880D8400BCDCD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D80B0BDD28880D8400BCDCD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D80B0BC928880D8000BCDCD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9215F9D2E6570BEEE1965B45 /* Pods_NodleSDKQuickStartiOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44C61034AAF39198B1766D9C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				35FFDAC0E3C1775F58424599 /* Pods-NodleSDKQuickStartiOS.debug.xcconfig */,
+				A7DBF78B228B8F2476F64AE0 /* Pods-NodleSDKQuickStartiOS.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D80B0BC328880D8000BCDCD1 = {
+			isa = PBXGroup;
+			children = (
+				D80B0BCE28880D8000BCDCD1 /* NodleSDKQuickStartiOS */,
+				D80B0BCD28880D8000BCDCD1 /* Products */,
+				44C61034AAF39198B1766D9C /* Pods */,
+				E804B96E4762AD2AB9BAE532 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D80B0BCD28880D8000BCDCD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D80B0BCC28880D8000BCDCD1 /* NodleSDKQuickStartiOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D80B0BCE28880D8000BCDCD1 /* NodleSDKQuickStartiOS */ = {
+			isa = PBXGroup;
+			children = (
+				D80B0BCF28880D8000BCDCD1 /* AppDelegate.swift */,
+				D80B0BD128880D8000BCDCD1 /* SceneDelegate.swift */,
+				D80B0BD328880D8000BCDCD1 /* ViewController.swift */,
+				D80B0BD528880D8000BCDCD1 /* Main.storyboard */,
+				D80B0BD828880D8400BCDCD1 /* Assets.xcassets */,
+				D80B0BDA28880D8400BCDCD1 /* LaunchScreen.storyboard */,
+				D80B0BDD28880D8400BCDCD1 /* Info.plist */,
+			);
+			path = NodleSDKQuickStartiOS;
+			sourceTree = "<group>";
+		};
+		E804B96E4762AD2AB9BAE532 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE6ABCD134B98896ED6A39DD /* Pods_NodleSDKQuickStartiOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D80B0BCB28880D8000BCDCD1 /* NodleSDKQuickStartiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D80B0BE028880D8400BCDCD1 /* Build configuration list for PBXNativeTarget "NodleSDKQuickStartiOS" */;
+			buildPhases = (
+				2D892CE259379CF80009269E /* [CP] Check Pods Manifest.lock */,
+				D80B0BC828880D8000BCDCD1 /* Sources */,
+				D80B0BC928880D8000BCDCD1 /* Frameworks */,
+				D80B0BCA28880D8000BCDCD1 /* Resources */,
+				D5385103849B11366DBCA0A7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NodleSDKQuickStartiOS;
+			productName = NodleSDKQuickStartiOS;
+			productReference = D80B0BCC28880D8000BCDCD1 /* NodleSDKQuickStartiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D80B0BC428880D8000BCDCD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					D80B0BCB28880D8000BCDCD1 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = D80B0BC728880D8000BCDCD1 /* Build configuration list for PBXProject "NodleSDKQuickStartiOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D80B0BC328880D8000BCDCD1;
+			productRefGroup = D80B0BCD28880D8000BCDCD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D80B0BCB28880D8000BCDCD1 /* NodleSDKQuickStartiOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D80B0BCA28880D8000BCDCD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80B0BDC28880D8400BCDCD1 /* LaunchScreen.storyboard in Resources */,
+				D80B0BD928880D8400BCDCD1 /* Assets.xcassets in Resources */,
+				D80B0BD728880D8000BCDCD1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D892CE259379CF80009269E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NodleSDKQuickStartiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5385103849B11366DBCA0A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NodleSDKQuickStartiOS/Pods-NodleSDKQuickStartiOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NodleSDKQuickStartiOS/Pods-NodleSDKQuickStartiOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NodleSDKQuickStartiOS/Pods-NodleSDKQuickStartiOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D80B0BC828880D8000BCDCD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80B0BD428880D8000BCDCD1 /* ViewController.swift in Sources */,
+				D80B0BD028880D8000BCDCD1 /* AppDelegate.swift in Sources */,
+				D80B0BD228880D8000BCDCD1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D80B0BD528880D8000BCDCD1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D80B0BD628880D8000BCDCD1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D80B0BDA28880D8400BCDCD1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D80B0BDB28880D8400BCDCD1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D80B0BDE28880D8400BCDCD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D80B0BDF28880D8400BCDCD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D80B0BE128880D8400BCDCD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35FFDAC0E3C1775F58424599 /* Pods-NodleSDKQuickStartiOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TVNNUR7359;
+				INFOPLIST_FILE = NodleSDKQuickStartiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nodlesdk.ios.quickstart.NodleSDKQuickStartiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D80B0BE228880D8400BCDCD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7DBF78B228B8F2476F64AE0 /* Pods-NodleSDKQuickStartiOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TVNNUR7359;
+				INFOPLIST_FILE = NodleSDKQuickStartiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nodlesdk.ios.quickstart.NodleSDKQuickStartiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D80B0BC728880D8000BCDCD1 /* Build configuration list for PBXProject "NodleSDKQuickStartiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D80B0BDE28880D8400BCDCD1 /* Debug */,
+				D80B0BDF28880D8400BCDCD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D80B0BE028880D8400BCDCD1 /* Build configuration list for PBXNativeTarget "NodleSDKQuickStartiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D80B0BE128880D8400BCDCD1 /* Debug */,
+				D80B0BE228880D8400BCDCD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D80B0BC428880D8000BCDCD1 /* Project object */;
+}

@@ -1,0 +1,11 @@
+framework module NodleSDK {
+  umbrella header "NodleSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module NodleSDK.Swift {
+    header "NodleSDK-Swift.h"
+    requires objc
+}

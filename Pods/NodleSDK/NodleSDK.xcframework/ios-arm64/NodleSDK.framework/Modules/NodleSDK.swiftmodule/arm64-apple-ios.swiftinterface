@@ -1,0 +1,125 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name NodleSDK
+import BackgroundTasks
+import CommonCrypto
+import CoreBluetooth
+import CoreFoundation
+import CoreLocation
+import CryptoKit
+import Foundation
+import Network
+@_exported import NodleSDK
+import SQLite
+import Swift
+import SwiftCBOR
+import SwiftProtobuf
+import UIKit
+extension NodleDispatcher {
+  public func registerNodleBackgroundTask()
+  public func scheduleNodleBackgroundTask()
+}
+@_hasMissingDesignatedInitializers public class NodleDispatcher {
+  public func showConfig() -> Swift.String
+  public func config(path: Swift.String)
+  public func config<T>(key: Swift.String, value: T)
+  public func isStarted() -> Swift.Bool
+  public func isScanning() -> Swift.Bool
+  public func stop()
+  public func clear()
+  public func getMetric(which: NodleSDK.SdkMetricType) -> Swift.Int64
+  public func getVersion() -> Swift.String
+  public func getEvents(upstream: @escaping (NodleSDK.NodleEvent) -> Swift.Void)
+  public func start(devKey: Swift.String, tags: Swift.String...)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers open class AbstractSecurityParameter {
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers open class AbstractSecurityResult {
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class NodleBluetoothEvent {
+  public var type: NodleSDK.NodleEventType
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class NodleBeaconRecord {
+  public var type: NodleSDK.NodleEventType
+  public var identifier: Swift.String
+  public var major: Foundation.NSNumber
+  public var minor: Foundation.NSNumber
+  public var proximity: Swift.Int
+  public var accuracy: Swift.Double
+  public var rssi: Swift.Int
+  public var timestamp: Foundation.Date
+  @objc deinit
+}
+public let HTTP_OK: Swift.Int
+public let HTTP_ACCEPTED: Swift.Int
+public let HTTP_BAD_REQUEST: Swift.Int
+public let HTTP_UNAUTHORIZED: Swift.Int
+@_hasMissingDesignatedInitializers public class NodleBluetoothRecord {
+  public var type: NodleSDK.NodleEventType
+  public var device: Swift.String
+  public var rssi: Swift.Int
+  public var bytes: [Swift.UInt8]?
+  public var manufacturerSpecificData: [Swift.Int : [Swift.UInt8]]?
+  public var serviceUuids: Swift.Array<CoreBluetooth.CBUUID>?
+  @objc deinit
+}
+public protocol NodleEvent {
+  var type: NodleSDK.NodleEventType { get }
+}
+public enum NodleEventType : Swift.Int {
+  case BlePayloadEvent
+  case BleStartSearching
+  case BleStopSearching
+  case BeaconPayloadEvent
+  case BeaconStartSeaching
+  case BeaconStopSearching
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class Nodle : NodleSDK.NodleDispatcher {
+  public static let sharedInstance: NodleSDK.Nodle
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class NodleBeaconEvent {
+  public var type: NodleSDK.NodleEventType
+  @objc deinit
+}
+extension UUID {
+  public func toUInt8Array() -> [Swift.UInt8]
+}
+extension Array where Element : Swift.Hashable {
+  public func uniqued() -> [Element]
+}
+extension Sequence where Self.Element : Swift.Hashable {
+  public func contains(_ elements: [Self.Element]) -> Swift.Bool
+}
+public enum SdkMetricType : Swift.Int {
+  case BleScanCount
+  case DtnTxCount
+  case DtnRxCount
+  case DtnForwardedCount
+  case DtnDeliveredCount
+  case MetricUnknown
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension NodleSDK.NodleBluetoothEvent : NodleSDK.NodleEvent {}
+extension NodleSDK.NodleBeaconRecord : NodleSDK.NodleEvent {}
+extension NodleSDK.NodleBluetoothRecord : NodleSDK.NodleEvent {}
+extension NodleSDK.NodleEventType : Swift.Equatable {}
+extension NodleSDK.NodleEventType : Swift.Hashable {}
+extension NodleSDK.NodleEventType : Swift.RawRepresentable {}
+extension NodleSDK.NodleBeaconEvent : NodleSDK.NodleEvent {}
+extension NodleSDK.SdkMetricType : Swift.Equatable {}
+extension NodleSDK.SdkMetricType : Swift.Hashable {}
+extension NodleSDK.SdkMetricType : Swift.RawRepresentable {}
