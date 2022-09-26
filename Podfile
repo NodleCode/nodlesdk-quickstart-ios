@@ -9,7 +9,7 @@ platform :ios, '13.0'
   use_frameworks! 
 
   # Pods for NodleSDKQuickStartiOS
-  pod 'NodleSDK', '~> 0.0.14'
+  pod 'NodleSDK', '~> 0.0.15'
   pod 'SQLite.swift', '~> 0.13.3'
   pod 'SwiftCBOR', '~> 0.4.5'
   pod 'SwiftProtobuf', '~> 1.19.0'

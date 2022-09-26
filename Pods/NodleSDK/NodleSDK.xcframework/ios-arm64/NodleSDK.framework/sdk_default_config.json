@@ -30,6 +30,14 @@
       "scan-sink": "dtn://nodle.io/cell/scan"
     }
   },
+  "heartbeat": {
+    "enable": true,
+    "resolution-h3": 7,
+    "heartbeat-sync-mode": 0,
+    "eid": {
+      "stat-sink": "dtn://nodle.io/heartbeat"
+    }
+  },
   "nodlecast": {
     "eid": {
       "cast-sink": "dtn://nodle.io/ble/cast"
@@ -62,6 +70,7 @@
   "cron": {
     "pull-config-interval-msec": 300000,
     "check-network-interval-msec": 30000,
+    "check-heartbeat-interval-msec": 60000,
     "ios-bt-refresh-sec": 300,
     "ios-bg-mode": 2,
     "ios-bg-mode-distance-meters": 20

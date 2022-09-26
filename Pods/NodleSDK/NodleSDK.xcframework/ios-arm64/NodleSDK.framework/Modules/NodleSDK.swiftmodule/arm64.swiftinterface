@@ -58,6 +58,14 @@ public let HTTP_OK: Swift.Int
 public let HTTP_ACCEPTED: Swift.Int
 public let HTTP_BAD_REQUEST: Swift.Int
 public let HTTP_UNAUTHORIZED: Swift.Int
+@_hasMissingDesignatedInitializers public class WGS84Point {
+  @objc deinit
+}
+public class BoundingBox {
+  public init(southLatitude: Swift.Double, northLatitude: Swift.Double, westLongitude: Swift.Double, eastLongitude: Swift.Double)
+  @objc deinit
+}
+infix operator >>> : BitwiseShiftPrecedence
 @_hasMissingDesignatedInitializers public class NodleBluetoothRecord {
   public var type: NodleSDK.NodleEventType
   public var device: Swift.String
@@ -100,13 +108,42 @@ extension Array where Element : Swift.Hashable {
 extension Sequence where Self.Element : Swift.Hashable {
   public func contains(_ elements: [Self.Element]) -> Swift.Bool
 }
-public enum SdkMetricType : Swift.Int {
+public enum SdkMetricType : Swift.Int, Swift.CustomStringConvertible {
   case BleScanCount
   case DtnTxCount
   case DtnRxCount
   case DtnForwardedCount
   case DtnDeliveredCount
+  case BlePermissionGranted
+  case LocPermissionGranted
+  case BleEnabled
+  case WifiEnabled
+  case CellEnabled
+  case BatteryCharging
+  case AppInForeground
+  case Location
+  case TimeZone
+  case SdkVersion
+  case ConfigVersion
+  case OsName
+  case PhoneModel
+  case Release
+  case ApiLevel
+  case Hardware
+  case AppName
+  case BatteryLevel
+  case PhoneStorageAvailable
+  case PhoneStorageTotal
+  case SdkStorage
+  case HTTPIn
+  case HTTPOut
+  case BleScanSuccess
+  case BleScanFailed
+  case GeoHash
   case MetricUnknown
+  public var description: Swift.String {
+    get
+  }
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {

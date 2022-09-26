@@ -10,7 +10,7 @@ At [Nodle](https://nodle.com) our goal is to enable all kinds of apps to earn re
 
 ## Documentation
 
-Please refer to our SDK documentation [here](https://developer.nodle.com/nodle-sdk/). 
+Please refer to our SDK documentation [here](https://developer.nodle.com/docs/nodle-sdk/introduction). 
 
 ## Support
 

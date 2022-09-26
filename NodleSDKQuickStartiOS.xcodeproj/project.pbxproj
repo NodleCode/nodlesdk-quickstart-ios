@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9215F9D2E6570BEEE1965B45 /* Pods_NodleSDKQuickStartiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6ABCD134B98896ED6A39DD /* Pods_NodleSDKQuickStartiOS.framework */; };
+		9F5F8C42CA244DB2310E4699 /* Pods_NodleSDKQuickStartiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F878797D7265F4146DFD79B /* Pods_NodleSDKQuickStartiOS.framework */; };
 		D80B0BD028880D8000BCDCD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80B0BCF28880D8000BCDCD1 /* AppDelegate.swift */; };
 		D80B0BD228880D8000BCDCD1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80B0BD128880D8000BCDCD1 /* SceneDelegate.swift */; };
 		D80B0BD428880D8000BCDCD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80B0BD328880D8000BCDCD1 /* ViewController.swift */; };
@@ -17,9 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		35FFDAC0E3C1775F58424599 /* Pods-NodleSDKQuickStartiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NodleSDKQuickStartiOS.debug.xcconfig"; path = "Target Support Files/Pods-NodleSDKQuickStartiOS/Pods-NodleSDKQuickStartiOS.debug.xcconfig"; sourceTree = "<group>"; };
-		A7DBF78B228B8F2476F64AE0 /* Pods-NodleSDKQuickStartiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NodleSDKQuickStartiOS.release.xcconfig"; path = "Target Support Files/Pods-NodleSDKQuickStartiOS/Pods-NodleSDKQuickStartiOS.release.xcconfig"; sourceTree = "<group>"; };
-		CE6ABCD134B98896ED6A39DD /* Pods_NodleSDKQuickStartiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NodleSDKQuickStartiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F878797D7265F4146DFD79B /* Pods_NodleSDKQuickStartiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NodleSDKQuickStartiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3CDBE49E8D8551C55885A46 /* Pods-NodleSDKQuickStartiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NodleSDKQuickStartiOS.release.xcconfig"; path = "Target Support Files/Pods-NodleSDKQuickStartiOS/Pods-NodleSDKQuickStartiOS.release.xcconfig"; sourceTree = "<group>"; };
+		C25674DC062197B30E4CA486 /* Pods-NodleSDKQuickStartiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NodleSDKQuickStartiOS.debug.xcconfig"; path = "Target Support Files/Pods-NodleSDKQuickStartiOS/Pods-NodleSDKQuickStartiOS.debug.xcconfig"; sourceTree = "<group>"; };
 		D80B0BCC28880D8000BCDCD1 /* NodleSDKQuickStartiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NodleSDKQuickStartiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D80B0BCF28880D8000BCDCD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D80B0BD128880D8000BCDCD1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,18 +35,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9215F9D2E6570BEEE1965B45 /* Pods_NodleSDKQuickStartiOS.framework in Frameworks */,
+				9F5F8C42CA244DB2310E4699 /* Pods_NodleSDKQuickStartiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		44C61034AAF39198B1766D9C /* Pods */ = {
+		2227CD24D44CFF3183B908B9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				35FFDAC0E3C1775F58424599 /* Pods-NodleSDKQuickStartiOS.debug.xcconfig */,
-				A7DBF78B228B8F2476F64AE0 /* Pods-NodleSDKQuickStartiOS.release.xcconfig */,
+				0F878797D7265F4146DFD79B /* Pods_NodleSDKQuickStartiOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD5DE62A694FA834182D8887 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C25674DC062197B30E4CA486 /* Pods-NodleSDKQuickStartiOS.debug.xcconfig */,
+				A3CDBE49E8D8551C55885A46 /* Pods-NodleSDKQuickStartiOS.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -57,8 +65,8 @@
 			children = (
 				D80B0BCE28880D8000BCDCD1 /* NodleSDKQuickStartiOS */,
 				D80B0BCD28880D8000BCDCD1 /* Products */,
-				44C61034AAF39198B1766D9C /* Pods */,
-				E804B96E4762AD2AB9BAE532 /* Frameworks */,
+				CD5DE62A694FA834182D8887 /* Pods */,
+				2227CD24D44CFF3183B908B9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,14 +92,6 @@
 			path = NodleSDKQuickStartiOS;
 			sourceTree = "<group>";
 		};
-		E804B96E4762AD2AB9BAE532 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				CE6ABCD134B98896ED6A39DD /* Pods_NodleSDKQuickStartiOS.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,11 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D80B0BE028880D8400BCDCD1 /* Build configuration list for PBXNativeTarget "NodleSDKQuickStartiOS" */;
 			buildPhases = (
-				2D892CE259379CF80009269E /* [CP] Check Pods Manifest.lock */,
+				E33C55B5A1EB42B3661823A2 /* [CP] Check Pods Manifest.lock */,
 				D80B0BC828880D8000BCDCD1 /* Sources */,
 				D80B0BC928880D8000BCDCD1 /* Frameworks */,
 				D80B0BCA28880D8000BCDCD1 /* Resources */,
-				D5385103849B11366DBCA0A7 /* [CP] Embed Pods Frameworks */,
+				8D13B02CD079DCBDDAC9A086 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,7 +160,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2D892CE259379CF80009269E /* [CP] Check Pods Manifest.lock */ = {
+		8D13B02CD079DCBDDAC9A086 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NodleSDKQuickStartiOS/Pods-NodleSDKQuickStartiOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NodleSDKQuickStartiOS/Pods-NodleSDKQuickStartiOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NodleSDKQuickStartiOS/Pods-NodleSDKQuickStartiOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E33C55B5A1EB42B3661823A2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -180,23 +197,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D5385103849B11366DBCA0A7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NodleSDKQuickStartiOS/Pods-NodleSDKQuickStartiOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NodleSDKQuickStartiOS/Pods-NodleSDKQuickStartiOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NodleSDKQuickStartiOS/Pods-NodleSDKQuickStartiOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -352,7 +352,7 @@
 		};
 		D80B0BE128880D8400BCDCD1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35FFDAC0E3C1775F58424599 /* Pods-NodleSDKQuickStartiOS.debug.xcconfig */;
+			baseConfigurationReference = C25674DC062197B30E4CA486 /* Pods-NodleSDKQuickStartiOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -375,7 +375,7 @@
 		};
 		D80B0BE228880D8400BCDCD1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7DBF78B228B8F2476F64AE0 /* Pods-NodleSDKQuickStartiOS.release.xcconfig */;
+			baseConfigurationReference = A3CDBE49E8D8551C55885A46 /* Pods-NodleSDKQuickStartiOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
