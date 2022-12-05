@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		PiiCJQDnMDVgW7hdh9FSmCr+0uA=
+		d/o08aapXHhrbOxwT0aETF/z+bs=
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		3HTdmhvQlzm9l5KRsGo1Akb0eQk=
+		Z83sKYFosvyZ4pFoVK8Ku8v7ap4=
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		3HTdmhvQlzm9l5KRsGo1Akb0eQk=
+		Z83sKYFosvyZ4pFoVK8Ku8v7ap4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>sdk_default_config.json</key>
 		<data>
-		Ubhc+fr8sk7jZGwrNH+T2Qj4sBY=
+		yTiZs9UwKimPq8zoHj0nx1XU8XE=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -83,7 +83,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SPO2zbvdsNTq93vhGJ097FHBua9d5VlrgcKQdEVExT0=
+			+TAwxE9makeucVS3NNJtI4hDRHcKA2ZyJa+fbKvhr4E=
 			</data>
 		</dict>
 		<key>Modules/NodleSDK.swiftmodule/arm64.swiftdoc</key>
@@ -104,7 +104,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SPO2zbvdsNTq93vhGJ097FHBua9d5VlrgcKQdEVExT0=
+			+TAwxE9makeucVS3NNJtI4hDRHcKA2ZyJa+fbKvhr4E=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -118,7 +118,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JeSb595dmCEXet9R+UioiVJ/3OwAZbR0QaqWMaXOlmQ=
+			lfCdtRuU/m3XM8fFl8ZdBcSpOE0Nm3nRqyQttBrBJOE=
 			</data>
 		</dict>
 	</dict>

@@ -1,5 +1,5 @@
 PODS:
-  - NodleSDK (0.0.15):
+  - NodleSDK (0.0.16):
     - SQLite.swift (~> 0.13.3)
     - SwiftCBOR (~> 0.4.5)
     - SwiftProtobuf (~> 1.19.0)
@@ -10,7 +10,7 @@ PODS:
   - SwiftProtobuf (1.19.1)
 
 DEPENDENCIES:
-  - NodleSDK (~> 0.0.15)
+  - NodleSDK (~> 0.0.16)
   - SQLite.swift (~> 0.13.3)
   - SwiftCBOR (~> 0.4.5)
   - SwiftProtobuf (~> 1.19.0)
@@ -23,11 +23,11 @@ SPEC REPOS:
     - SwiftProtobuf
 
 SPEC CHECKSUMS:
-  NodleSDK: 6fafc9a9adbbdf3e9646d8e4628045e1a0df3d37
+  NodleSDK: 5c8b5cc2c3f00c159b0adae308e9d1e63c173e9e
   SQLite.swift: 903bfa3bc9ab06345fdfbb578e34f47cfcf417da
   SwiftCBOR: ac340b74d3b2cf1f8884bb748bd09875848e3873
   SwiftProtobuf: 59d9ea2eb5f84b509f32d170a65f3348ae758f1e
 
-PODFILE CHECKSUM: c8bc297ab4edf46cb74706804c6c3cb78f7aaec2
+PODFILE CHECKSUM: 950d5cfaefc3f09f3cc88d386fa5f4c1c42be4d5
 
 COCOAPODS: 1.11.3
